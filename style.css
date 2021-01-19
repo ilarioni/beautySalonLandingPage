@@ -46,3 +46,34 @@
     margin-top: 50px;
     margin-bottom: 30px;
 }
+.content .btn {
+    text-decoration: none;
+    border: 3px solid #fff;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 18px 34px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.content .btn:hover{
+    background: #ffa1a1;
+    border-color: #ffa1a1;
+    color: #000;
+    transition: 0.5s;
+}
+.btn2 {
+    float: right;
+}
+.sidebar {
+    width: 40%;
+    max-width: 550px;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    backdrop-filter: blur(4px);
+}
